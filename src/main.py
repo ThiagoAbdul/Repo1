@@ -1,3 +1,4 @@
+from utilitarios.utils import add_spaces
 import os
 
 def bravo(func):
@@ -25,4 +26,4 @@ def hello():
     return '?'
 
 connect()
-print(hello())
+print(add_spaces(hello()))
